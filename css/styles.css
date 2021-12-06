@@ -1,0 +1,449 @@
+body{
+    background-color: var(--bg);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    transition-property: all;
+    transition-duration: 1s;
+}
+html{
+    --bg: rgb(209, 6, 6);
+    --text-color: white;
+    --text-hover: red;
+    --bg2: black;
+    transition-property: all;
+    transition-duration: 1s;
+    overflow-wrap: normal;
+    overflow-x: unset;
+}
+html[data-theme="dark"]{
+    --bg: black;
+    --bg2: grey;
+    --text-color: rgb(48, 108, 128);
+    --text-hover: darkblue;
+    transition-property: all;
+    transition-duration: 1s;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: var(--text-color);
+}
+a:hover{
+    text-decoration: none;
+    color: var(--text-hover);
+}
+a:active{
+    text-decoration: none;
+}
+nav{
+    color: var(--bg2);
+    word-wrap: break-word;
+}
+ul.nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    white-space: nowrap;
+}
+ul.nav li{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-left: 400px;
+}
+i:hover{
+    color: var(--text-hover);
+}
+li.nomargin{
+    margin-left: 1px !important;
+}
+li.shows{
+    margin-left: 320px !important;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1640px;
+    position: relative;
+}
+header{
+    background-color:var(--bg2);
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+footer li{
+    margin: 10px;
+    margin-left: 100px;
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    color: var(--text-color);
+    text-shadow: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.socialmedia li{
+    width: 10px;
+    margin-left: 10px;
+}
+.socialmedia{
+    margin-left: 100px;
+}
+footer li:hover{
+    color: var(--text-hover);
+}
+footer ul{
+    margin: 10px;
+}
+li{
+    transition-property: all;
+    transition-duration: 1s;
+}
+.flexcontainer{
+    display: flex;
+    background-color:black;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+.search{
+    margin-left: 500px !important;
+}
+i{
+    color: var(--text-color);
+    width: 14px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+input[type=checkbox]{
+	visibility: hidden;
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    width: 376.3px;
+    height: 25px;
+    margin-top: 30px;
+  }
+main ul li{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    width: 400px;
+    height: 170px;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--text-color);
+    transition-property: all;
+    transition-duration: 1s;
+    text-shadow: 3px 2px 2.5px black;
+    border-radius: 10px;
+    margin-bottom: 125px;
+}
+h1{
+    margin-top: -28px;
+    font-size: 30px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--text-color);
+    transition-property: all;
+    transition-duration: 1s;
+}
+h1:hover{
+    color: var(--text-hover);
+    transition-property: all;
+    transition-duration: 1s;
+}
+li.jojo{
+    background-image: url("jolyne.jpg");
+    background-size: 400px;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+p{
+    font-size: 17.5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--text-color);
+    text-shadow: 3px 2px 2px black;
+    margin-top: 150px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+li.jojo:hover{
+    background-size: 400px;
+    background-position-y: -55px;
+    backdrop-filter: blur(8px);
+}
+li.jojo p{
+    margin-top: 110.5px;
+}
+
+li.AOT p{
+    margin-top: 110.5px;
+}
+li.note{
+    background-image: url("deathnote.jpg");
+    background-size: 800px;
+    background-position-y: bottom;
+    background-position-x: -200px;
+}
+li.note:hover{
+    background-size: 800px;
+    background-position-y: -100px;
+}
+li.crewmates{
+    background-image: url("crewmates.jpg");
+    background-size: 400px;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+li.crewmates:hover{
+    background-size: 400px;
+    background-position-y: -150px;
+    backdrop-filter: blur(8px);
+}
+li.squid{
+    background-image: url("squid.jpg");
+    background-size: 400px;
+    background-position-y: -350px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+li.squid:hover{
+    background-size: 400px;
+    background-position-y: -40px;
+    backdrop-filter: blur(8px);
+}
+li.ST3{
+    background-image: url("strangerthings.png");
+    background-size: 400px;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+li.ST3:hover{
+    background-size: 400px;
+    background-position-y: -40px;
+    backdrop-filter: blur(8px);
+}
+li.AOT{
+    background-image: url("AOT.jpg");
+    background-size: 400px;
+    background-position-y: -300px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+li.AOT:hover{
+    background-size: 400px;
+    background-position-y: -40px;
+    backdrop-filter: blur(8px);
+}
+
+li.tigerking{
+    background-image: url("tigerking.jpg");
+    background-size: 400px;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+li.tigerking:hover{
+    background-size: 400px;
+    background-position-y: -40px;
+    backdrop-filter: blur(8px);
+}
+
+li.bojack{
+    background-image: url("bojack.jpg");
+    background-size: 400px;
+    background-position-y: -400px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+li.bojack:hover{
+    background-size: 400px;
+    background-position-y: -40px;
+    backdrop-filter: blur(8px);
+}
+
+@media only screen and (max-width: 1700px){
+    html{
+        width: auto;
+    }
+    body{
+        width: auto;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        width: auto;
+        justify-content: center;
+    }
+    main li{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 26px !important;
+        width: 150px;
+        height: 120px;
+        margin: 5px;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        margin-bottom: 125px;
+    }
+
+    footer li{
+        margin: 10px;
+        margin-left: 100px;
+        height: 30px;
+        width: 200px;
+        font-size: 18px;
+        color: white;
+        text-shadow: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+    footer ul{
+        margin: 10px;
+        justify-content: flex-start !important;
+    }
+    p{
+        font-size: 20px;
+        color: white;
+        text-shadow: 3px 2px 2px black;
+        margin-top: 135px !important;
+    }
+    li.squid{
+        background-image: url("squid.jpg");
+        background-size: 400px;
+        background-position-y: -400px;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    
+ul.nav li{
+    width: auto;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px !important;
+}
+.nomargin{
+    margin-right: 200px !important;
+}
+.shows{
+    margin-right: 300px;
+}
+.sub{
+    margin-right: 350px !important;
+}
+h1{
+    margin-top: -22px;
+    font-size: 25px;
+    margin-left: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav{
+    width: auto;
+}
+}
+@media only screen and (max-width: 830px){
+    body{
+        width: auto;
+    }
+    main ul{
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    main li{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        width: 400px;
+        height: 100px;
+        margin: 5px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 40px;
+    }
+    p{
+        margin-top: 140px !important;
+    }
+    
+footer li{
+    margin: 10px;
+    margin-left: 100px;
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    text-shadow: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition-property: all;
+    transition-duration: 1s;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.socialmedia{
+    margin: auto;
+}
+    
+.flexcontainer{
+    width: 700px;
+}
+.flexcontainer2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul.nav li{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px !important;
+}
+
+ul.nav{
+    margin-left: 200px;
+}
+h1{
+    visibility: hidden;
+}
+.nomargin{
+    margin-right: 30px !important;
+}
+.shows{
+    margin-right: 35px;
+}
+.sub{
+    margin-right: 27px !important;
+}
+i{
+    margin-top: -100px;
+}
+.visible{
+    visibility: visible;
+}
+}
