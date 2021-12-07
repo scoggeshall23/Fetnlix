@@ -187,7 +187,9 @@ label:after {
 	border-radius: 90px;
 	transition: 0.3s;
 }
-
+h3{
+    font-family: 'Redacted', cursive;
+}
 input:checked + label {
 	background: var(--bg2);
 }
