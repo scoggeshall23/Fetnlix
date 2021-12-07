@@ -189,6 +189,7 @@ label:after {
 }
 h3{
     font-family: 'Redacted', cursive;
+    color: var(--text-color)
 }
 input:checked + label {
 	background: var(--bg2);
